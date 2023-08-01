@@ -65,11 +65,16 @@ color: var(--link-header-1-color);
     color:var(--list-link-menu-color, #404bbf);
     
 }
+.nav.header.sos {
+text-decoration: none;
+}
 .list-address {
     list-style: none;
     font-style: normal; 
     line-height: 1.5;
-
+}
+.list-link {
+    text-decoration: none;
 }
 .list-link-mail {
     list-style: none;
