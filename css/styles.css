@@ -29,8 +29,8 @@ background-color: #FFFFFF;
     color: #2e2f42;
 }
 .list {
+    
     text-decoration: none;
-    list-style: none;
     list-style: none;
    font-weight: 500px; 
    font-size: 16px;
@@ -40,6 +40,7 @@ background-color: #FFFFFF;
    
 }
 .list-link-menu {
+    
    list-style: none;
    text-decoration: none;
    font-weight: 500;
@@ -61,6 +62,7 @@ background-color: #FFFFFF;
 
 }
 .list-link-mail {
+    list-style: none;
     font-size: 16px;
     line-height: 1.5px;
     letter-spacing: 0.02em;
@@ -94,9 +96,9 @@ background-color: #FFFFFF;
 
 
 .button-list-section {
-    cursor: pointer;
-    list-style: none;
-    text-align: center;
+cursor: pointer;
+list-style: none;
+text-align: center;
 background-color: #4D5AE5;
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
@@ -105,8 +107,8 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
 }
-.button-list-section:hover :focus {
-    color: var(--button-color-change, #404BBF);
+.button-list-section:hover, :focus {
+    background-color: var(--button-color-change);
 }
 
 
