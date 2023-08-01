@@ -6,6 +6,8 @@
     --button-color: #4D5AE5;
     --list-link-menu-color: #404bbf;
     --button-color-change: #404BBF;
+    --link-header-1-color: #2e2f42;
+
 
 
 
@@ -14,6 +16,13 @@ body {
 font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color: #FFFFFF;
+}
+.link-header-1 {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--link-header-1-color);
 }
 .link {
     list-style: none;
@@ -40,11 +49,11 @@ background-color: #FFFFFF;
    color: #2e2f42;
    
 }
-.list-link-menu {
+.link-list {
     
    list-style: none;
    text-decoration: none;
-   font-weight: 800;
+   font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
@@ -52,7 +61,7 @@ background-color: #FFFFFF;
 
       
 }
-.list-link-menu:hover,:focus {
+.link-list:hover,:focus {
     color:var(--list-link-menu-color, #404bbf);
     
 }
