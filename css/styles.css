@@ -16,6 +16,7 @@ color: #434455;
 background-color: #FFFFFF;
 }
 .link {
+    list-style: none;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -29,7 +30,7 @@ background-color: #FFFFFF;
     color: #2e2f42;
 }
 .list {
-    
+    font-style: normal;
     text-decoration: none;
     list-style: none;
    font-weight: 500px; 
@@ -43,7 +44,7 @@ background-color: #FFFFFF;
     
    list-style: none;
    text-decoration: none;
-   font-weight: 500;
+   font-weight: 800;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
@@ -84,6 +85,11 @@ background-color: #FFFFFF;
 }
 .main-section {
     background-color: #2e2f42;
+    
+}
+.nav-header-1 {
+    font-style: normal;
+
 }
 .main-h {
     font-size: 56px;
@@ -186,7 +192,7 @@ color: #ffffff;
 }
 .section-footer-text {
     font-size: 500;
-    line-height: 1.15;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
