@@ -102,6 +102,7 @@ color: #ffffff;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    background-color: #FFFFFF;
 
 }
 .list-p {
@@ -109,6 +110,8 @@ color: #ffffff;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    background-color: #FFFFFF;
+
 }
 .list-wawd {
     list-style: none;
@@ -172,4 +175,8 @@ color: #ffffff;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+.testing {
+    font-size: 1500;
+    background-color: #F4F4FD;
 }
