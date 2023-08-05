@@ -8,6 +8,8 @@
     --button-color-change: #404BBF;
     --link-header-1-color: #4d5ae5;
     --nav-color: #4d5ae5;
+    --portfolio-buttons-color: #F4F4FD;
+    --portfolio-font-color: #4d5ae5;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -33,6 +35,7 @@ body {
 
 .list {
     list-style: none;
+    text-decoration: none;
 }
 .texthead {
     font-weight: 500;
@@ -77,22 +80,37 @@ body {
 
 
 .button-list-section {
-cursor: pointer;
-list-style: none;
-text-align: center;
-background-color: #4D5AE5;
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #ffffff;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+    background-color: #4d5ae5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 .button-list-section:hover, :focus {
     background-color: var(--button-color-change);
 }
 
 
+.knopka  {
+    cursor: pointer;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--portfolio-font-color);
+    background-color: var(--portfolio-buttons-color);
+   border: transparent;
+}
+.knopka:hover, :focus {
+color: #FFFFFF;
+background-color: #404BBF;
+}
 .list-section-2{
     list-style: none;
 }
@@ -175,8 +193,4 @@ color: #ffffff;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-}
-.testing {
-    font-size: 1500;
-    background-color: #FFFFFF;
 }
