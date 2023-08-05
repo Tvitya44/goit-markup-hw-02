@@ -6,96 +6,57 @@
     --button-color: #4D5AE5;
     --list-link-menu-color: #404bbf;
     --button-color-change: #404BBF;
-    --link-header-1-color: #2e2f42;
-
-
-
-
+    --link-header-1-color: #4d5ae5;
+    --nav-color: #4d5ae5;
 }
 body {
-font-family: 'Roboto', sans-serif;
-color: #434455;
-background-color: #FFFFFF;
+    font-family: 'Roboto' sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
-.link-header-1 {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--link-header-1-color);
+.nav-zalypa {
+   font-family: 'Raleway';
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--link-header-1-color);
+   text-decoration: none; 
 }
 .link {
-    list-style: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
     text-decoration: none;
 }
-.logo {
-    color: #2e2f42;
+.logospan {
+    color: #2e2f42
 }
-.list {
-    font-style: normal;
-    text-decoration: none;
-    list-style: none;
-   font-weight: 500px; 
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: #2e2f42;
-   
-}
-.link-list {
-    
-   list-style: none;
-   text-decoration: none;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: #2e2f42;
 
-      
+.list {
+    list-style: none;
 }
-.link-list:hover,:focus {
-    color:var(--list-link-menu-color, #404bbf);
+.texthead {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     
 }
-.nav.header.sos {
-text-decoration: none;
+.texthead:hover{
+  color: #404bbf;  
 }
-.list-address {
-    list-style: none;
-    font-style: normal; 
+.adr {
+    font-style: normal;
+}
+.contacts {
+    font-size: 16px;
     line-height: 1.5;
-}
-.list-link {
-    text-decoration: none;
-}
-.list-link-mail {
-    list-style: none;
-    font-size: 16px;
-    line-height: 1.5px;
     letter-spacing: 0.02em;
-    color:#434455;
-    text-decoration: none;
+    color: #434455;
+
 }
-.list-link-mail:hover,:focus {
-    color: var(--list-link-menu-color, #404bbf);
-}
-.list-link-tel {
-    font-size: 16px;
-    line-height: 1.5px;
-    letter-spacing: 0.02em;
-    color:#434455;
-    text-decoration: none;  
-}
-.list-link-tel:hover, :focus {
-    color: var(--list-link-menu-color, #404bbf);
+.contacts:hover, :focus{
+    color: var(--list-link-menu-color);
 }
 .main-section {
     background-color: #2e2f42;
