@@ -10,12 +10,12 @@
     --nav-color: #4d5ae5;
 }
 body {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
 .nav-zalypa {
-   font-family: 'Raleway';
+   font-family: 'Raleway', sans-serif;
    font-weight: 800;
    font-size: 18px;
    line-height: 1.17;
@@ -125,7 +125,9 @@ color: #ffffff;
     background-color: #F4F4FD;
 }
 
-
+.images {
+    background-color: #FFFFFF;
+}
 
 .list-team-names {
     list-style: none;
