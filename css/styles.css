@@ -96,7 +96,7 @@ body {
 }
 
 
-.knopka  {
+.knopka body  {
     cursor: pointer;
     font-family: 'roboto', sans-serif;
     font-weight: 500;
@@ -145,8 +145,12 @@ background-color: #404BBF;
 .list-our-team {
     background-color: #F4F4FD;
 }
-.homw link{
+.list {
+    list-style: none;
+}
+.homw {
     text-decoration: none;
+    
 }
 .images {
     background-color: #FFFFFF;
