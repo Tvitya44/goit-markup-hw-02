@@ -53,13 +53,13 @@ body {
 }
 .contacts {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5;       
     letter-spacing: 0.02em;
     color: #434455;
 
 }
-.contacts:hover, :focus{
-    color: var(--list-link-menu-color);
+.contacts:hover, :focus {
+    color: #404bbf;
 }
 .main-section {
     background-color: #2e2f42;
