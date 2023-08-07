@@ -45,8 +45,11 @@ body {
     color: #2e2f42;
     
 }
-.texthead:hover, :focus{
+.texthead:hover {
   color: #404bbf;  
+}
+.texthead:focus {
+    color: #404bbf;
 }
 .adr {
     font-style: normal;
@@ -60,6 +63,9 @@ body {
 }
 .contacts:hover, :focus {
     color: #404bbf;
+}
+.contacts:focus {
+color: #404bbf;
 }
 .main-section {
     background-color: #2e2f42;
